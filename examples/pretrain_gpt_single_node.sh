@@ -8,9 +8,9 @@
 N_GPUS=1
 
 CHECKPOINT_PATH=checkpoints/gpt2
-VOCAB_FILE=data/gpt2-vocab.json
-MERGE_FILE=data/gpt2-merges.txt
-DATA_PATH=data/meg-gpt2_text_document
+VOCAB_FILE=train_data/gpt2-vocab.json
+MERGE_FILE=train_data/gpt2-merges.txt
+DATA_PATH=train_data/my-gpt2_text_document
 
 GPT_ARGS=" \
     --num-layers 24 \
